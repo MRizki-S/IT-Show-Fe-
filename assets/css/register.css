@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    background-color: rgb(231, 243, 255);
+  }
+  
+  .container {
+    background-color: coral;
+    display: flex;
+    height: 480px;
+    width: 70%;
+    margin: 100px auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .wrapper-left {
+    width: 50%;
+    /* min-height: 100vh; */
+    /* background-color: burlywood; */
+    /* height: 100%; */
+  }
+  
+  .wrapper-left img {
+    background-size: cover;
+    background-position: center;
+    /* height: 490px; */
+    width: 100%;
+  }
+  
+  .wrapper-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+  }
+  
+  .content h1 {
+    text-align: center;
+    color: #474747;
+    /* margin-bottom: 100px; */
+    /* background-color: blueviolet; */
+  }
+  
+  .content {
+    /* background-color: chocolate; */
+    width: 80%;
+    /* padding-inline: 15%; */
+  }
+  
+  .box-login {
+    /* background-color: darkmagenta; */
+    /* width: 100%; */
+    padding: 5% 10%;
+    border: 1px solid #d0d5dd;
+    border-radius: 24px;
+    display: block;
+  }
+  
+  .box-login h2 {
+    font-size: 24px;
+    font-family: 500;
+  }
+  
+  .input-box label {
+    display: block;
+    font-size: smaller;
+    color: #344054;
+    font-weight: 500;
+  }
+  
+  .input-box input {
+    border: none;
+    border: 1px solid #d0d5dd;
+    width: 95%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 5px;
+  }
+  
+  .input-box a {
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1849a9;
+    font-weight: 600;
+    width: 150px;
+  }
+  .input-box a:hover {
+    text-decoration: underline;
+  }
+  
+  .button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #175cd3;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .button a {
+    color: #ffff;
+    text-decoration: none;
+  }
+  
+  .link {
+    margin-top: 35px;
+    text-align: center;
+    font-size: small;
+    color: #101828;
+    font-weight: 400;
+  }
+  
+  .link a {
+    color: #1849a9;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
